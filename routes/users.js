@@ -1,6 +1,6 @@
 const express = require("express");
 paulRouter = express.Router();
-const Product = require("../models/product");
+const Product = require("../models/product")
 
 paulRouter.get("/users", (req, res) => {
   Product.find()
